@@ -40,6 +40,7 @@ public class HomeController {
 	public ModelAndView faqs(HttpServletResponse response) throws IOException{
 		return new ModelAndView("FAQs");
 	}
+	
 	@RequestMapping(value="/albumb")
 	public ModelAndView albumb(HttpServletResponse response) throws IOException{
 		return new ModelAndView("gallery");
